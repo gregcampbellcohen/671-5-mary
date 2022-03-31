@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Breweries in North America and Hawaii</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Sitka', serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			 width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Sitka', serif;
+			font-weight: 300;
+			font-size: 2.5em;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Sitka', serif;
+			font-weight: 700;
+			color: #43464a;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3
+		}
+
+		.max-width-img {
+			width: 100%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<h1>Breweries in North America and Hawaii</h1>
+		<h2>Number of breweries per 50km inner diameter hexagon</h2>
+		<img src="breweries_1200px.png" alt="Breweries in North America and Hawaii" class="max-width-img">
+		<br>
+		<a href="breweries_8000px.png">Link to high resolution map</a>
+		<h2>Authored by: Greg Campbell-Cohen</h2>
+		<p>This map was created using QGIS 3.12.1 on Windows 10.</p>
+		<p>The coordinate reference system is North America Albers Equal Area Conic (EPSG: 102008).</p>
+		<p><a href="../geojson/brewery_point_locations.geojson"> Link to Brewery Point Locations geojson</a>.</p>
+		<p>Data source: <a href="http://www.poi-factory.com/" target="blank">POI Factory</a>.</p> 
+
+		<ul>
+			<li>See my projects on GitHub: <a href="https://github.com/gregcampbellcohen">Greg Campbell-Cohen</a></li>
+			<li>Follow me on Twitter: <a href="https://twitter.com/NewMapsPlus">@gcampbellcohen</a></li>
+			<li>Find me on LinkedIn: <a href='https://www.linkedin.com/in/greg-campbell-cohen-96614792/'>LinkedIn</a></li>
+		</ul>
+		<hr>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
+				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
+
+</body>
+
+</html>
